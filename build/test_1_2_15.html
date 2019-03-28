@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Тест Постанова задач подразделениям, донесения (сводки) по связи</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body class="body uk-offcanvas-content">
+    <header class="header">
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-2"><a href="/"><img src="assets/img/gerb.png" alt=""></a></div>
+          <div class="col-12 col-md-8 text-center">
+            <div>ЭЛЕКТРОННЫЙ УЧЕБНО-МЕТОДИЧЕСКИЙ КОМПЛЕКС</div>изучения учебной дисциплины "Тактико-специальная подготовка"
+            по военно-учетной спциальности:<br>521300 - "Эксплуатация и ремонт аппаратуры электросвязи"
+          </div>
+          <div class="col-12 col-md-2"><a href="https://www.mirea.ru" target="_blank"><img src="assets/img/vk_logo.png" alt=""></a></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container text-justify">
+        <div class="uk-card uk-card-default mb-4">
+          <div class="uk-card-body">
+            <button class="uk-button uk-button-primary uk-margin-small-right" type="button" data-uk-toggle="target: #offcanvas-nav-primary">Открыть содержание</button>
+            <h1 class="uk-h2">Тест по теме: <b>Постанова задач подразделениям, донесения (сводки) по связи</b></h1>
+            <script>
+              window.questions = [
+                {
+                  "question": "1. Из каких документов состоит план связи мсб?",
+                  "good_anser": "Все ответы верны.",
+                  "bad_anser": "План связи.::Пояснительная записка.::Схема радиосвязи."
+                },
+                {
+                  "question": "2. План связи  подписывается:",
+                  "good_anser": "Начальником штаба и начальником связи батальона.",
+                  "bad_anser": "Командиром батальона.::Командиром отделения.::Начальником связи батареи."
+                },
+                {
+                  "question": "3. Задачи (по связи) командирам подразделений батальона ставятся:",
+                  "good_anser": "Распоряжениям по связи штаба батальона.",
+                  "bad_anser": "Боевым распоряжением.::Срочным донесением.::"
+                },
+                {
+                  "question": "4. По характеру содержащихся сведений донесения могут быть:",
+                  "good_anser": "Срочными и внесрочными.",
+                  "bad_anser": "Срочными и бессрочными.::Срочными и временными.::Экстренными и важными."
+                },
+                {
+                  "question": "5. К какому принципу организации связи для взаимодействия войск относится определение: между взаимодействующими подразделениями связь организуется распоряжением вышестоящего штаба?",
+                  "good_anser": "Принцип исходных данных для организации связи взаимодействия.",
+                  "bad_anser": "Принцип ответственности за организацию связи взаимодействия.::Принцип ответственности за выделение средств для связи взаимодействия.::Принцип организации связи  мотострелковых и танковых подразделений с действующей артиллерией."
+                },
+                {
+                  "question": "6. Цели морально-психологического обеспечения достигаются проведением:",
+                  "good_anser": "Все ответы верны.",
+                  "bad_anser": "Информационно-воспитательной работы.::Психологической, военно-социальной и культурно-досуговой работой.::Обеспечением взвода техническими средствами воспитания."
+                },
+                {
+                  "question": "7. При инженерном оборудовании района обороны (опорного пункта) батальона  в условиях непосредственного соприкосновения с противником, в первую очередь:",
+                  "good_anser": "Отрываются  одиночные (парные) окопы.",
+                  "bad_anser": "Отрываются  окопы на отделения.::Совершенствуется инженерное оборудование района обороны.::Нет верного ответа."
+                },
+                {
+                  "question": "8. Какой это способ маскировки: создание ложных позиций и районов расположения войск путем возведения ложных сооружений, применения макетов техники и других инженерных средств для введения противника в заблуждение?",
+                  "good_anser": "Имитация.",
+                  "bad_anser": "Демонстративные действия.::Дезинформация.::Скрытие."
+                },
+                {
+                  "question": "9. Основными демаскирующими признаками войск и объектов являются:",
+                  "good_anser": "Все ответы верны.",
+                  "bad_anser": "Форма и размеры.::Собственные и падающие тени от техники и сооружений.::Отблески от стекол, металла техники и вооружения."
+                },
+                {
+                  "question": "10. К электронно-оптической разведке относится:",
+                  "good_anser": "Инфракрасная разведка.",
+                  "bad_anser": "Магнитометрическая разведка.::Сейсмическая разведка.::Зрительная разведка."
+                }
+              ];
+            </script>
+            <div class="timer" id="timer"></div>
+            <div id="test"></div>
+            <div id="result"></div>
+          </div>
+        </div>
+      </div>
+      <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+          <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical" data-uk-nav>
+            <li class="uk-nav-header">Содержание</li>
+            <li class="uk-parent"><a href="#">Раздел 1. Организация связи в тактическом и оперативно-тактическом звене управления</a>
+              <ul class="uk-nav-sub">
+                <li><a href="r_1_t_1.html">Тема 1. Общие положения по организации связи в Сухопутных войсках Вооруженных Сил Российской Федерации</a></li>
+                <li><a href="r_1_t_2.html">Тема 2. Организация связи в тактическом звене управления</a></li>
+                <li><a href="r_1_t_3.html">Тема 3. Организация связи в оперативно-тактическом звене управления</a></li>
+              </ul>
+            </li>
+            <li class="uk-parent"><a href="#">Раздел 2. Система связи оперативного звена управления Сухопутных войск</a>
+              <ul class="uk-nav-sub">
+                <li><a href="r_2_t_2.html">Тема 2. Основы поддержания боевой готовности и всестороннего обеспечения боеготовности применения частей (подразделений) связи</a></li>
+                <!--lia(href='r_2_t_3.html') Тема 3 Узлы связи пунктов управления оперативного звена
+                -->
+              </ul>
+            </li>
+            <li class="uk-nav-header">Дополнительно</li>
+            <li><a href="#">литература</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="uk-grid-large uk-flex-middle uk-grid" uk-grid="">
+          <div class="uk-first-column uk-width-expand@m">
+            <p class="uk-text-large">&copy; Военнная кафедра РТУ (МИРЭА)</p>
+          </div>
+        </div>
+      </div>
+    </footer><a class="uk-button uk-button-secondary uk-position-large uk-position-bottom-right uk-position-fixed px-3" href="#" data-uk-totop data-uk-scroll></a>
+    <!--script(data-main="assets/js/app" src="assets/js/require.js" defer)-->
+    <script src="assets/js/jquery.min.js" defer></script>
+    <script src="assets/js/uikit.js" defer></script>
+    <script src="assets/js/uikit-icons.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

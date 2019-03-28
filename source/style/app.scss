@@ -1,0 +1,90 @@
+@import "common/mixin";
+
+@import "common/fonts";
+@import "common/getUiKit";
+@import "common/greating";
+
+
+//ui/ux
+@import "common/b-crumb";
+
+@import "modules/header";
+@import "modules/main";
+@import "modules/footer";
+
+
+.timer {
+  text-align: center;
+  font-size: rem(26px);
+  color: #f00;
+  font-weight: bold;
+}
+.test{
+  &__title,
+  &__result {
+    font-size: rem(26px);
+    font-weight: bold;
+    text-align: center;
+  }
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+    li {
+      text-align: center;
+      font-size: rem(24px);
+      cursor: pointer;
+      &,
+      &:focus,
+      &:visited {
+        color: #000;
+        text-decoration:none;
+      }
+      &:hover,
+      &:active {
+        color: #005900;
+        text-decoration:none;
+      }
+    }
+
+  }
+  &__result {
+    &-count {
+      text-align: center;
+      font-weight: bold;
+      font-size: rem(40px);
+      &.exelant {
+        color: #0f0;
+      }
+      &.good {
+        color: #ff0;
+      }
+      &.bad {
+        color: #f00;
+      }
+
+    }
+  }
+}
+
+.result {
+  margin-bottom: 20px;
+  &__question {
+    font-size: rem(20px);
+  }
+  &__answer {
+    font-size: rem(18px);
+  }
+  &__status{
+    font-size: rem(16px);
+    &.error{
+      color: #f00;
+    }
+    &.success{
+      color: #0f0;
+    }
+  }
+}

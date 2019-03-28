@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Тест Основы организации управления связью в мсбр</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+  </head>
+  <body class="body uk-offcanvas-content">
+    <header class="header">
+      <div class="container py-3">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-2"><a href="/"><img src="assets/img/gerb.png" alt=""></a></div>
+          <div class="col-12 col-md-8 text-center">
+            <div>ЭЛЕКТРОННЫЙ УЧЕБНО-МЕТОДИЧЕСКИЙ КОМПЛЕКС</div>изучения учебной дисциплины "Тактико-специальная подготовка"
+            по военно-учетной спциальности:<br>521300 - "Эксплуатация и ремонт аппаратуры электросвязи"
+          </div>
+          <div class="col-12 col-md-2"><a href="https://www.mirea.ru" target="_blank"><img src="assets/img/vk_logo.png" alt=""></a></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container text-justify">
+        <div class="uk-card uk-card-default mb-4">
+          <div class="uk-card-body">
+            <button class="uk-button uk-button-primary uk-margin-small-right" type="button" data-uk-toggle="target: #offcanvas-nav-primary">Открыть содержание</button>
+            <h1 class="uk-h2">Тест по теме: <b>Основы организации управления связью в мсбр</b></h1>
+            <script>
+              window.questions = [{
+                "question": "К органам управления связью в бригаде относится:",
+                "good_anser": "Начальники связи.",
+                "bad_anser": "Нет верного ответа.::Министр обороны.::Отделение по связи главнокомандующего войск артиллерийской авиации."
+              }, {
+                "question": "К задачам отделения связи относится:",
+                "good_anser": "Организация подготовки подразделений связи бригады, контроль за выполнением ими поставленных задач.",
+                "bad_anser": "Организация управления связью в полку.::Руководство проведением мероприятий по переводу системы и подразделений связи с мирного на военное время.::Все ответы верны."
+              }, {
+                "question": "НЕ относится к основной документации, которая должна быть на пункте управления связью:",
+                "good_anser": "Таблицы позывных узлов (станций) связи, должностных лиц противника. рабочая карта.",
+                "bad_anser": "Рабочая карта.::Справочные документы.::Схема организации служебной связи."
+              }, {
+                "question":
+                  "Первый пункт алгоритма работы начальника связи мсбр:",
+                "good_anser":
+                  "Уяснение задачи.",
+                "bad_anser":
+                  "Оценка обстановки.::Принятие решения.::Сбор данных об обстановке по связи."
+              }, {
+                "question":
+                  "Работа начальника связи мсбр по подготовке подразделений связи к применению в боевых действиях начинается с получением:",
+                "good_anser":
+                  "Указаний начальника штаба на организацию управления.",
+                "bad_anser":
+                  "Приказа начальника полка.::Указаний начальника связи батальона связи.::Нет верного ответа."
+              }, {
+                "question":
+                  "При постановке задачи НС начальник штаба указывает:",
+                "good_anser":
+                  "Все ответы верны.",
+                "bad_anser":
+                  "С кем, к какому времени, какими средствами установить связь и на какие направления обратить особое внимание.::Порядок восстановления связи при выходе из строя ПУ.::Построение боевого (походного) порядка части."
+              }, {
+                "question":
+                  "Оценка обстановки НЕ включает:",
+                "good_anser":
+                  "Нет верного ответа.",
+                "bad_anser":
+                  "Оценку времени.::Оценку противника.::Оценку района предстоящих боевых действий."
+              }, {
+                "question":
+                  "План связи НЕ включает:",
+                "good_anser":
+                  "Нет верного ответа.",
+                "bad_anser":
+                  "Графическую часть плана связи.::Схему (таблицу) радио- и спутниковой связи.::Пояснительную записку."
+              }, {
+                "question":
+                  "На схеме (таблице) радио- и спутниковой связи НЕ указываются:",
+                "good_anser":
+                  "Протяженность и тип кабеля.",
+                "bad_anser":
+                  "Тип каналообразующей аппаратуры.::Принадлежность средств связи.::Нет верного ответа."
+              }, {
+                "question":
+                  "Постановка задач штабам подразделений бригады ставятся:",
+                "good_anser":
+                  "Распоряжениями по связи.",
+                "bad_anser":
+                  "Боевыми распоряжениями.::Срочными донесениями.::Внесрочными приказами."
+              }
+              ];
+            </script>
+            <div class="timer" id="timer"></div>
+            <div id="test"></div>
+            <div id="result"></div>
+          </div>
+        </div>
+      </div>
+      <div id="offcanvas-nav-primary" data-uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+          <ul class="uk-nav uk-nav-primary uk-margin-auto-vertical" data-uk-nav>
+            <li class="uk-nav-header">Содержание</li>
+            <li class="uk-parent"><a href="#">Раздел 1. Организация связи в тактическом и оперативно-тактическом звене управления</a>
+              <ul class="uk-nav-sub">
+                <li><a href="r_1_t_1.html">Тема 1. Общие положения по организации связи в Сухопутных войсках Вооруженных Сил Российской Федерации</a></li>
+                <li><a href="r_1_t_2.html">Тема 2. Организация связи в тактическом звене управления</a></li>
+                <li><a href="r_1_t_3.html">Тема 3. Организация связи в оперативно-тактическом звене управления</a></li>
+              </ul>
+            </li>
+            <li class="uk-parent"><a href="#">Раздел 2. Система связи оперативного звена управления Сухопутных войск</a>
+              <ul class="uk-nav-sub">
+                <li><a href="r_2_t_2.html">Тема 2. Основы поддержания боевой готовности и всестороннего обеспечения боеготовности применения частей (подразделений) связи</a></li>
+                <!--lia(href='r_2_t_3.html') Тема 3 Узлы связи пунктов управления оперативного звена
+                -->
+              </ul>
+            </li>
+            <li class="uk-nav-header">Дополнительно</li>
+            <li><a href="#">литература</a></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="uk-grid-large uk-flex-middle uk-grid" uk-grid="">
+          <div class="uk-first-column uk-width-expand@m">
+            <p class="uk-text-large">&copy; Военнная кафедра РТУ (МИРЭА)</p>
+          </div>
+        </div>
+      </div>
+    </footer><a class="uk-button uk-button-secondary uk-position-large uk-position-bottom-right uk-position-fixed px-3" href="#" data-uk-totop data-uk-scroll></a>
+    <!--script(data-main="assets/js/app" src="assets/js/require.js" defer)-->
+    <script src="assets/js/jquery.min.js" defer></script>
+    <script src="assets/js/uikit.js" defer></script>
+    <script src="assets/js/uikit-icons.js" defer></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

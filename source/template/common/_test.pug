@@ -1,0 +1,14 @@
+extends _layout
+block main
+  -var titleTest = titleTest ? titleTest : ''
+  .container.text-justify
+    .uk-card.uk-card-default.mb-4
+      .uk-card-body
+        button.uk-button.uk-button-primary.uk-margin-small-right(type='button', data-uk-toggle='target: #offcanvas-nav-primary') Открыть содержание
+        h1.uk-h2!= titleTest
+
+        block question
+
+        #timer.timer
+        #test
+        #result

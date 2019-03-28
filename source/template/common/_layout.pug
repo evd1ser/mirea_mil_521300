@@ -1,0 +1,30 @@
+include mixin
+doctype html
+-var PATH = "assets/";
+block variable
+
+html(lang="ru")
+  include _head
+  body.body.uk-offcanvas-content
+    //-include ../../svg/iconsPack.svg
+
+    include ../modules/header
+    main.main
+      block main
+      include ../modules/main-nav
+    include ../modules/footer
+    include ../modules/modals
+
+    a.uk-button.uk-button-secondary.uk-position-large.uk-position-bottom-right.uk-position-fixed.px-3(href="#" data-uk-totop data-uk-scroll)
+    //script(data-main="assets/js/app" src="assets/js/require.js" defer)
+
+    //-script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.min.js' defer)
+    //-script(src='assets/js/bootstrap.min.js' defer)
+    //-script(src='assets/js/swiper.min.js')
+    script(src='assets/js/jquery.min.js' defer)
+    script(src='assets/js/uikit.js' defer)
+    script(src='assets/js/uikit-icons.js' defer)
+    script(src='assets/js/app.js' defer)
+
+
+

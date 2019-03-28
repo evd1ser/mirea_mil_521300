@@ -1,0 +1,32 @@
+$c1: #282b37;
+$c2: #6a4a42;
+$c3: #728f57;
+$c4: #c3ccc2;
+$c5: #f5f9fa;
+
+// 1. Your custom variables and variable overwrites.
+$global-link-color: #DA7D02;
+
+$global-primary-background: #728f57;
+$global-success-background: #00a200;
+$global-warning-background: #faa05a;
+$global-danger-background: #f0506e;
+$global-secondary-background: #6a4a42;
+$base-selection-background: transparentize($c3, 0.2);
+$global-gutter: 20px;
+$card-default-background: transparentize(#fff, 0.1);
+$nav-primary-item-font-size: 1.1rem;
+$offcanvas-bar-padding-vertical: 10px;
+$offcanvas-bar-padding-vertical-mg: 10px;
+$offcanvas-bar-padding-horizontal: 10px;
+$offcanvas-bar-padding-horizontal-m: 10px;
+
+// 2. Import default variables and available mixins.
+@import "../uikit/variables.scss";
+@import "../uikit/mixins.scss";
+
+// 3. Your custom mixin overwrites.
+@mixin hook-card() { color: #000; }
+
+// 4. Import UIkit.
+@import "../uikit/uikit.scss";
